@@ -1,0 +1,532 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EF2D09791E7F8DA60030086D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EF2D09781E7F8DA60030086D /* main.m */; };
+		EF2D097C1E7F8DA60030086D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EF2D097B1E7F8DA60030086D /* AppDelegate.m */; };
+		EF2D097F1E7F8DA60030086D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF2D097E1E7F8DA60030086D /* ViewController.m */; };
+		EF2D09821E7F8DA60030086D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF2D09801E7F8DA60030086D /* Main.storyboard */; };
+		EF2D09841E7F8DA60030086D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF2D09831E7F8DA60030086D /* Assets.xcassets */; };
+		EF2D09871E7F8DA60030086D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF2D09851E7F8DA60030086D /* LaunchScreen.storyboard */; };
+		EF2D09921E7F8DA60030086D /* SPNSRunloopTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EF2D09911E7F8DA60030086D /* SPNSRunloopTests.m */; };
+		EF2D099D1E7F8DA60030086D /* SPNSRunloopUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = EF2D099C1E7F8DA60030086D /* SPNSRunloopUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EF2D098E1E7F8DA60030086D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EF2D096C1E7F8DA50030086D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EF2D09731E7F8DA50030086D;
+			remoteInfo = SPNSRunloop;
+		};
+		EF2D09991E7F8DA60030086D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EF2D096C1E7F8DA50030086D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EF2D09731E7F8DA50030086D;
+			remoteInfo = SPNSRunloop;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EF2D09741E7F8DA60030086D /* SPNSRunloop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SPNSRunloop.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF2D09781E7F8DA60030086D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EF2D097A1E7F8DA60030086D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EF2D097B1E7F8DA60030086D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EF2D097D1E7F8DA60030086D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		EF2D097E1E7F8DA60030086D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EF2D09811E7F8DA60030086D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EF2D09831E7F8DA60030086D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EF2D09861E7F8DA60030086D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EF2D09881E7F8DA60030086D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF2D098D1E7F8DA60030086D /* SPNSRunloopTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SPNSRunloopTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF2D09911E7F8DA60030086D /* SPNSRunloopTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SPNSRunloopTests.m; sourceTree = "<group>"; };
+		EF2D09931E7F8DA60030086D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF2D09981E7F8DA60030086D /* SPNSRunloopUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SPNSRunloopUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF2D099C1E7F8DA60030086D /* SPNSRunloopUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SPNSRunloopUITests.m; sourceTree = "<group>"; };
+		EF2D099E1E7F8DA60030086D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF2D09AA1E7F91200030086D /* SPNSRunloop-PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SPNSRunloop-PrefixHeader.pch"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EF2D09711E7F8DA50030086D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF2D098A1E7F8DA60030086D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF2D09951E7F8DA60030086D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EF2D096B1E7F8DA50030086D = {
+			isa = PBXGroup;
+			children = (
+				EF2D09761E7F8DA60030086D /* SPNSRunloop */,
+				EF2D09901E7F8DA60030086D /* SPNSRunloopTests */,
+				EF2D099B1E7F8DA60030086D /* SPNSRunloopUITests */,
+				EF2D09751E7F8DA60030086D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EF2D09751E7F8DA60030086D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EF2D09741E7F8DA60030086D /* SPNSRunloop.app */,
+				EF2D098D1E7F8DA60030086D /* SPNSRunloopTests.xctest */,
+				EF2D09981E7F8DA60030086D /* SPNSRunloopUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EF2D09761E7F8DA60030086D /* SPNSRunloop */ = {
+			isa = PBXGroup;
+			children = (
+				EF2D097A1E7F8DA60030086D /* AppDelegate.h */,
+				EF2D097B1E7F8DA60030086D /* AppDelegate.m */,
+				EF2D097D1E7F8DA60030086D /* ViewController.h */,
+				EF2D097E1E7F8DA60030086D /* ViewController.m */,
+				EF2D09AA1E7F91200030086D /* SPNSRunloop-PrefixHeader.pch */,
+				EF2D09801E7F8DA60030086D /* Main.storyboard */,
+				EF2D09831E7F8DA60030086D /* Assets.xcassets */,
+				EF2D09851E7F8DA60030086D /* LaunchScreen.storyboard */,
+				EF2D09881E7F8DA60030086D /* Info.plist */,
+				EF2D09771E7F8DA60030086D /* Supporting Files */,
+			);
+			path = SPNSRunloop;
+			sourceTree = "<group>";
+		};
+		EF2D09771E7F8DA60030086D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EF2D09781E7F8DA60030086D /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EF2D09901E7F8DA60030086D /* SPNSRunloopTests */ = {
+			isa = PBXGroup;
+			children = (
+				EF2D09911E7F8DA60030086D /* SPNSRunloopTests.m */,
+				EF2D09931E7F8DA60030086D /* Info.plist */,
+			);
+			path = SPNSRunloopTests;
+			sourceTree = "<group>";
+		};
+		EF2D099B1E7F8DA60030086D /* SPNSRunloopUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EF2D099C1E7F8DA60030086D /* SPNSRunloopUITests.m */,
+				EF2D099E1E7F8DA60030086D /* Info.plist */,
+			);
+			path = SPNSRunloopUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EF2D09731E7F8DA50030086D /* SPNSRunloop */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF2D09A11E7F8DA60030086D /* Build configuration list for PBXNativeTarget "SPNSRunloop" */;
+			buildPhases = (
+				EF2D09701E7F8DA50030086D /* Sources */,
+				EF2D09711E7F8DA50030086D /* Frameworks */,
+				EF2D09721E7F8DA50030086D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SPNSRunloop;
+			productName = SPNSRunloop;
+			productReference = EF2D09741E7F8DA60030086D /* SPNSRunloop.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EF2D098C1E7F8DA60030086D /* SPNSRunloopTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF2D09A41E7F8DA60030086D /* Build configuration list for PBXNativeTarget "SPNSRunloopTests" */;
+			buildPhases = (
+				EF2D09891E7F8DA60030086D /* Sources */,
+				EF2D098A1E7F8DA60030086D /* Frameworks */,
+				EF2D098B1E7F8DA60030086D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EF2D098F1E7F8DA60030086D /* PBXTargetDependency */,
+			);
+			name = SPNSRunloopTests;
+			productName = SPNSRunloopTests;
+			productReference = EF2D098D1E7F8DA60030086D /* SPNSRunloopTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EF2D09971E7F8DA60030086D /* SPNSRunloopUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF2D09A71E7F8DA60030086D /* Build configuration list for PBXNativeTarget "SPNSRunloopUITests" */;
+			buildPhases = (
+				EF2D09941E7F8DA60030086D /* Sources */,
+				EF2D09951E7F8DA60030086D /* Frameworks */,
+				EF2D09961E7F8DA60030086D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EF2D099A1E7F8DA60030086D /* PBXTargetDependency */,
+			);
+			name = SPNSRunloopUITests;
+			productName = SPNSRunloopUITests;
+			productReference = EF2D09981E7F8DA60030086D /* SPNSRunloopUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EF2D096C1E7F8DA50030086D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = shinephe;
+				TargetAttributes = {
+					EF2D09731E7F8DA50030086D = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+					EF2D098C1E7F8DA60030086D = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = EF2D09731E7F8DA50030086D;
+					};
+					EF2D09971E7F8DA60030086D = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = EF2D09731E7F8DA50030086D;
+					};
+				};
+			};
+			buildConfigurationList = EF2D096F1E7F8DA50030086D /* Build configuration list for PBXProject "SPNSRunloop" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EF2D096B1E7F8DA50030086D;
+			productRefGroup = EF2D09751E7F8DA60030086D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EF2D09731E7F8DA50030086D /* SPNSRunloop */,
+				EF2D098C1E7F8DA60030086D /* SPNSRunloopTests */,
+				EF2D09971E7F8DA60030086D /* SPNSRunloopUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EF2D09721E7F8DA50030086D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF2D09871E7F8DA60030086D /* LaunchScreen.storyboard in Resources */,
+				EF2D09841E7F8DA60030086D /* Assets.xcassets in Resources */,
+				EF2D09821E7F8DA60030086D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF2D098B1E7F8DA60030086D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF2D09961E7F8DA60030086D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EF2D09701E7F8DA50030086D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF2D097F1E7F8DA60030086D /* ViewController.m in Sources */,
+				EF2D097C1E7F8DA60030086D /* AppDelegate.m in Sources */,
+				EF2D09791E7F8DA60030086D /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF2D09891E7F8DA60030086D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF2D09921E7F8DA60030086D /* SPNSRunloopTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF2D09941E7F8DA60030086D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF2D099D1E7F8DA60030086D /* SPNSRunloopUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EF2D098F1E7F8DA60030086D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EF2D09731E7F8DA50030086D /* SPNSRunloop */;
+			targetProxy = EF2D098E1E7F8DA60030086D /* PBXContainerItemProxy */;
+		};
+		EF2D099A1E7F8DA60030086D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EF2D09731E7F8DA50030086D /* SPNSRunloop */;
+			targetProxy = EF2D09991E7F8DA60030086D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EF2D09801E7F8DA60030086D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF2D09811E7F8DA60030086D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EF2D09851E7F8DA60030086D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF2D09861E7F8DA60030086D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EF2D099F1E7F8DA60030086D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EF2D09A01E7F8DA60030086D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EF2D09A21E7F8DA60030086D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "/Users/shinephe/Desktop/SPNSRunloop/SPNSRunloop/SPNSRunloop-PrefixHeader.pch";
+				INFOPLIST_FILE = SPNSRunloop/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.pumin.SPNSRunloop;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EF2D09A31E7F8DA60030086D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "/Users/shinephe/Desktop/SPNSRunloop/SPNSRunloop/SPNSRunloop-PrefixHeader.pch";
+				INFOPLIST_FILE = SPNSRunloop/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.pumin.SPNSRunloop;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		EF2D09A51E7F8DA60030086D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SPNSRunloopTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.pumin.SPNSRunloopTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SPNSRunloop.app/SPNSRunloop";
+			};
+			name = Debug;
+		};
+		EF2D09A61E7F8DA60030086D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SPNSRunloopTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.pumin.SPNSRunloopTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SPNSRunloop.app/SPNSRunloop";
+			};
+			name = Release;
+		};
+		EF2D09A81E7F8DA60030086D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SPNSRunloopUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.pumin.SPNSRunloopUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SPNSRunloop;
+			};
+			name = Debug;
+		};
+		EF2D09A91E7F8DA60030086D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SPNSRunloopUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.pumin.SPNSRunloopUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SPNSRunloop;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EF2D096F1E7F8DA50030086D /* Build configuration list for PBXProject "SPNSRunloop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF2D099F1E7F8DA60030086D /* Debug */,
+				EF2D09A01E7F8DA60030086D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF2D09A11E7F8DA60030086D /* Build configuration list for PBXNativeTarget "SPNSRunloop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF2D09A21E7F8DA60030086D /* Debug */,
+				EF2D09A31E7F8DA60030086D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EF2D09A41E7F8DA60030086D /* Build configuration list for PBXNativeTarget "SPNSRunloopTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF2D09A51E7F8DA60030086D /* Debug */,
+				EF2D09A61E7F8DA60030086D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EF2D09A71E7F8DA60030086D /* Build configuration list for PBXNativeTarget "SPNSRunloopUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF2D09A81E7F8DA60030086D /* Debug */,
+				EF2D09A91E7F8DA60030086D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EF2D096C1E7F8DA50030086D /* Project object */;
+}

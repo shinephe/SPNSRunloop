@@ -1,0 +1,19 @@
+//
+//  SPNSRunloop-PrefixHeader.pch
+//  SPNSRunloop
+//
+//  Created by shinephe on 17/3/20.
+//  Copyright © 2017年 shinephe. All rights reserved.
+//
+
+#ifndef SPNSRunloop_PrefixHeader_pch
+#define SPNSRunloop_PrefixHeader_pch
+
+//自定义修改NSLog输出,release版本中去掉NSLog输出
+#ifdef DEBUG
+#define SPLog(format, ...) printf("\n[%s] %s [第%d行] %s\n", __TIME__, __FUNCTION__, __LINE__, [[NSString stringWithFormat:format, ## __VA_ARGS__] UTF8String]);
+#else
+#define SPLog(format, ...)
+#endif
+
+#endif /* SPNSRunloop_PrefixHeader_pch */
